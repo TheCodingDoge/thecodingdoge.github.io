@@ -1,1 +1,79 @@
-Hello World
+<!DOCTYPE xhtml>
+<html>
+<head>
+	<title>DogeyDogs - What do you want to do?</title>
+
+	<style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+body{
+	font-family: 'Roboto Condensed';
+	text-transform: uppercase;
+	background: #FF5964;
+	height: 100%;
+	overflow: hidden;
+}
+
+h1{
+	font-size: 35px;
+	text-align: center;
+}
+
+.layer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: transform .4s;
+	transform: perspective(800px) scale(1) translateX(0) rotateY(0);
+	transform-style: preserve-3d;
+}
+
+nav{
+	vertical-align: center;
+}
+
+nav ul{
+	padding-left: 66.66%;
+	font-size: larger;
+	line-height: 2;
+}
+
+nav ul li{
+	list-style-type: none;
+}
+
+nav ul li a{
+	/* let's change that ugly default anchor tag styling */
+	text-decoration: none;
+	color: #fff;
+}
+
+.front{
+	background: #FFFBC1;
+}
+
+body:hover .front{
+	transform: perspective(700px) scale(0.5) translateX(-16.66%) rotateY(25deg);
+}
+	</style>
+</head>
+<body>
+	<nav class="layer">
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="blog.html">Blog</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+	</nav>
+
+	<section class="front page layer">
+		<h1>Hover anywhere <br>to reveal navigation</h1>
+	</section>
+</body>
+</html>
