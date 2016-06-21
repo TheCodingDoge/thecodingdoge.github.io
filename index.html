@@ -1,80 +1,114 @@
-<!DOCTYPE xhtml>
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<head>
-	<title>DogeyDogs - What do you want to do?</title>
+	<head>
+		<title>DogeyDogs - Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/prism.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-	<style type="text/css">
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
 
-body{
-	font-family: 'Roboto Condensed';
-	text-transform: uppercase;
-	background: #FF5964;
-	height: 100%;
-	overflow: hidden;
-}
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">DogeyDogs</span>
+								</a>
 
-h1{
-	font-size: 35px;
-	text-align: center;
-}
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
 
-.layer{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	transition: transform .4s;
-	transform: perspective(800px) scale(1) translateX(0) rotateY(0);
-	transform-style: preserve-3d;
-}
+						</div>
+					</header>
 
-nav{
-	vertical-align: center;
-}
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="repository.html">Repositorys</a></li>
+						</ul>
+					</nav>
 
-nav ul{
-	padding-left: 66.66%;
-	font-size: larger;
-	line-height: 2;
-}
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1>This is thecodingdoge.github.io, DogeyDogs website!</h1>
+								<p>Hello and welcome to DogeyDogs'(my) website!<br>
+								Here you can find all about my videos and my life.<br>
+								Here are some of my blog posts</p>
+							</header>
+							<!-- Keep doing style 2-6 -->
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="images/mainblog.jpg" alt="" />
+									</span>
+									<a href="hello-world.blog.html">
+										<h2>Hello World</h2>
+										<div class="content">
+											<p>DogeyDogs says "Hi!" to the internet and introduces himself.</p>
+										</div>
+									</a>
+								</article>
+							</section>
+						</div>
+					</div>
 
-nav ul li{
-	list-style-type: none;
-}
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+						<p>Fun Fact: This is my favourite video ever :)
+						Its what happens when you have some psyco sauce >:)
+						<video width="320" height="240" controls>
+							<source src="assets/videos/argh.mp4" type="video/mp4">
+							Your browser does not uspport the video tag. Sorry!
+						</video></p>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="https://www.twitter.com/REALDogeyDogs" class="icon style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.youtube.com/channel/UCprdj-M3Pld-9Pg_Ln_FpfA" class="icon style2 fa-youtube"><span class="label">Youtube</span></a></li>
+									<li><a href="https://plus.google.com/105042383588499204028/" class="icon style2 fa-google-plus"><span class="label">Google Plus</span></a></li>
+									<li><a href="https://github.com/TheCodingDoge" class="icon style2 fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; DogeyDogs. All rights reserved</li>
+							</ul>
+						</div>
+					</footer>
 
-nav ul li a{
-	/* let's change that ugly default anchor tag styling */
-	text-decoration: none;
-	color: #fff;
-}
+			</div>
 
-.front{
-	background: #FFFBC1;
-}
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/prism.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
 
-body:hover .front{
-	transform: perspective(700px) scale(0.5) translateX(-16.66%) rotateY(25deg);
-}
-	</style>
-</head>
-<body>
-	<nav class="layer">
-	<ul>
-		<li><a href="home.html">Home</a></li>
-		<li><a href="about.html">About</a></li>
-		<li><a href="blog.html">Blog</a></li>
-		<li><a href="contact.html">Contact</a></li>
-		<li><a href="repository.html">Repositorys</a></li>
-	</ul>
-	</nav>
-
-	<section class="front page layer">
-		<h1>Hover anywhere <br>to reveal navigation</h1>
-	</section>
-</body>
+	</body>
 </html>
